@@ -1,4 +1,4 @@
-group 'com.pichillilorenzo.flutter_inappwebview_android'
+group 'com.pichillilorenzo.flutter_inappwebview'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -22,7 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    namespace 'com.pichillilorenzo.flutter_inappwebview_android'
+    namespace 'com.pichillilorenzo.flutter_inappwebview'
     compileSdkVersion 33
 
     defaultConfig {
